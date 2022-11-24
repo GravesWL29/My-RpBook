@@ -1,0 +1,196 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+html {
+  font-size: 57%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 45px;
+  color: black;
+}
+
+.titleworld h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  background-color: black;
+}
+
+.mybook {
+  text-align: center;
+  color: white;
+}
+
+.backimg {
+  height: 100em;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/823/934/original/set-icons-with-foods-doodle-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-free-vector.jpg");
+}
+
+.MyBook h1 {
+  color: white;
+}
+
+.MyBook h3 {
+  color: white;
+}
+
+/*Navbar styling*/
+.NavBar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar li {
+  font-size: large;
+  display: inline;
+  padding: 10px;
+  list-style: none;
+}
+
+.headerandimg h1 {
+  text-align: center;
+  display: inline-table;
+  margin-left: 11em;
+  padding-top: 1em;
+  font-size: 45px;
+  color: black;
+  border-bottom: solid black 0.15em;
+}
+
+.headerandimg img {
+  width: 220px;
+  height: 100px;
+  background: #555;
+}
+
+.nav-links {
+  border-bottom: solid black 0.3em;
+}
+
+.link1:hover {
+  background-color: rgb(153, 153, 153);
+  size: 0.5em;
+}
+
+.link2:hover {
+  background-color: rgb(153, 153, 153);
+  size: 0.5em;
+}
+
+header {
+  background-color: white;
+}
+
+.NavBar a {
+  color: black;
+}
+
+.NavBar a:link {
+  text-decoration: none;
+}
+
+.body {
+  background-color: black;
+}
+
+.world-book .recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.world-book .details {
+  width: 30rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+.world-book .details h1 {
+  background-color: hsla(0deg, 9%, 19%, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.world-book .details img {
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+.world-book .details button {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+.world-book .ingredient-list {
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.world-book .ingredient-list li {
+  margin: 0.5rem 0;
+}
+.world-book .ingredient-list:hover {
+  background-color: aqua;
+}
+.world-book .ingredient-list .ingredient-text {
+  font-size: 1.5rem;
+  color: #888;
+}
+.world-book .ingredient-list .searchBar {
+  height: 100em;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/823/934/original/set-icons-with-foods-doodle-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-free-vector.jpg");
+}
+.world-book .ingredient-list .searchBar h2 {
+  text-align: center;
+  padding-top: 0.5em;
+  color: white;
+  font-size: 3.5em;
+}
+.world-book .ingredient-list .search-bar {
+  font-size: 1.2em;
+}
+.world-book .ingredient-list .search-button {
+  font-size: 1.2em;
+}
+.world-book .ingredient-list .App {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */

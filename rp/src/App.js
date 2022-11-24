@@ -6,6 +6,7 @@ import WorldBook from './component/WorldBook';
 import MyBookForm from './component/MyBookForm';
 import Recipe from './component/Recipe';
 import React, { useState } from 'react';
+import './CSS/style.css'
 function App() {
 
   return (
@@ -15,7 +16,7 @@ function App() {
       <header>
       <div className="headerandimg">
       <img src={require("./Logo.jpeg")} alt='logo' />
-       
+      <h1>Welcome to WorldRPBook!</h1>
       </div> 
       <div className='nav-links'>
 

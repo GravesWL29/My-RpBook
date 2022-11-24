@@ -31,9 +31,7 @@ function WorldBook() {
 
     return(
         <div>
-        <div className='titleworld' >
-        <h1>Welcome to WorldRPBook!</h1>
-        </div>
+    
         <div className="searchBar">
         <h2 className="searchTitle">Please enter a recipe below!</h2>
         <div className = "App">

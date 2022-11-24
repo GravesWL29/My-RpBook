@@ -80,11 +80,9 @@ const saveUpdateForm=()=>{
 return(
 
     <div className="MyBook">
+        <div className="backimg">
+            
         
-        <div className='title' >
-        <h1>Welcome to MyRPBook!</h1>
-        </div>
-
         <h1>MyBook</h1>
         <button onClick={handleClick} variant="primary" type="submit">
             Add My Recipe
@@ -152,7 +150,7 @@ return(
         
             )}
             
-        
+            </div>
         </div>
     </div>
     
