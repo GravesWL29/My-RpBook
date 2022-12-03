@@ -23,3 +23,47 @@ Outstanding Bugs: Page Crashes after being deployed when clicking Update and Del
 
 Unfinished Functionality: Favorites Button for WorldBook Recipes, Login Form and Home Page (Link to Ivy's Amazing Login Form: https://github.com/pinkfroggie/login/tree/master)
 
+API Documentation:
+
+We are using an API from the company Edamam, which is a food recipe repository. It is in the function WorldBook in the WorldBook,js file. The response we get from the Api gets processed in our Recipe.js and RecipeDetails.js files. The information we are looking to get from each APi response are the title of the recipe, the ingridients and the number of calories from each. That inforation then just used in the Worldbook.js to be disploayed below each image when clicked on.
+
+ChangeLog:
+$ git log --pretty="- %s"
+- add scss
+- style and fixing bugs
+- Merge branch 'main' of https://github.com/Dmays17/My-RpBook
+- Finnished Project
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- working CRUD
+- env file
+- rearrange
+- rearrange
+- rerearrange
+- api add
+- changed padding on navbar
+- mybook and form
+- added nav bar styling
+- adding styling to worldbook
+- fixed bugs
+- jason commit
+- pic not loding
+- combined code project
+- update
+- ingredients list
+- update recipe links
+- API issuse
+- pictures and title
+- api works
+- add link and nav
+- headline my book
+- fixed component
+- first commit
+- starter code
+- blank page load
+- added component and mybook
+- base code
+(END)
